@@ -1,0 +1,18 @@
+{
+  "version": "2.0",
+  "logging": {
+    "logLevel": {
+      "DurableTask.AzureStorage": "Warning",
+      "DurableTask.Core": "Warning"
+    }
+  },
+  "extensions": {
+    "durableTask": {
+      "hubName": "icm358210295a",
+      "storageProvider": {
+        "partitionCount": 1,
+        "entityMessageReorderWindowInMinutes": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "ICM358210295": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7261",
+      "environmentVariables": {
+        "AzureWebJobsStorage": "(put connection string here)"
+      }
+    }
+  }
+}

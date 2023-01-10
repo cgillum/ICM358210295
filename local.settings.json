@@ -1,0 +1,8 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "(please set this in app settings or environment variables)",
+      "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+
+    }
+}
